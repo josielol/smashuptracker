@@ -4,7 +4,8 @@
   "description": "Smash Up Tracker",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "startApp": "node src/index.js"
   },
   "repository": {
     "type": "git",
