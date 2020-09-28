@@ -1,0 +1,22 @@
+{
+  "name": "smashuptracker",
+  "version": "1.0.0",
+  "description": "Smash Up Tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josielol/smashuptracker.git"
+  },
+  "author": "josielol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josielol/smashuptracker/issues"
+  },
+  "homepage": "https://github.com/josielol/smashuptracker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
