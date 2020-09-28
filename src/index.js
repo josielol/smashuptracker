@@ -1,14 +1,19 @@
-var express = require('express');
-var app = express();
-
 const utilities = {
-	path: require('path')
+	express: require('express'),
+	path: require('path'),
+	define: require('amdefine')(module),
+	controllers: {
+		app: require('./controllers/app')
+	}
 };
 
-app.get('/', function (req, res) {
+utilities.app = utilities.express();
+
+utilities.app.get('/', function (req, res) {
   res.sendFile(utilities.path.join(__dirname + '/index.html'));
+  utilities.controllers.app.color;
 });
 
-app.listen(3000, function () {
+utilities.app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });

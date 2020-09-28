@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/josielol/smashuptracker#readme",
   "dependencies": {
+    "amdefine": "^1.0.1",
     "express": "^4.17.1",
+    "mongodb": "^3.6.2",
     "react": "^16.13.1"
   }
 }
